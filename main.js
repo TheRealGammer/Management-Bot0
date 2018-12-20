@@ -10,7 +10,7 @@ cmmd.registry.registerCommandsIn(__dirname + '/commands');
 // #endregion
 cmmd.login(json.token);
 
-// #region On
+// #region OnMethod
 
 cmmd.on ("guildMemberAdd", member =>{
     module.exports.SayInChannel("logs","Welcome")

@@ -1,0 +1,20 @@
+const cmd = require('discord.js-commando');
+
+class template extends cmd.Command
+{
+    constructor(client)
+    {
+        super(client,{
+            name: 'cmd',
+            group: 'group',
+            memberName: 'cmd',
+            description: 'desc'
+        });
+    }
+    async run(msg, args)
+    {
+        
+    }
+}
+
+module.exports = template;
